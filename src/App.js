@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ maxWidth: 600, margin: "auto", padding: 20, fontFamily: "Arial, sans-serif" }}>
+      <h1>Floris van der Flier</h1>
+      <img src="me.jpg" alt="Avatar" style={{ width: 150, borderRadius: '50%' }} />
+      <p>Hello! This is my personal homepage.</p>
+      <a href="cv.pdf" target="_blank" rel="noopener noreferrer">
+        View My CV
+      </a>
     </div>
   );
 }
